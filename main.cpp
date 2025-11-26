@@ -10,7 +10,6 @@ struct PersonData {
 };
 
 double f(double x,double w){
-  
     double b = 0;
     return x*w+b;
 }
@@ -37,6 +36,7 @@ double train_model(std::vector<PersonData> data ){
     }
     return weight;
 }
+
 int main(){
     
     std::vector<PersonData> data;
